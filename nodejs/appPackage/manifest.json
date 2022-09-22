@@ -1,5 +1,5 @@
 ﻿{
-  "manifestVersion": "m365devpreview",
+  "manifestVersion": "<MANIFEST_VERSION>",
   "version": "1.0.0",
   "id": "29707738-0e63-4e5e-b8db-beae7ce4de92",
   "packageName": "com.microsoft.teams.tabstageview",
@@ -23,23 +23,6 @@
   },
   "staticTabs": [
     {
-      "entityId": "stageViewTask",
-      "scopes": ["personal", "team", "groupchat"],
-      "context": [
-        "personalTab",
-        "privateChatTab",
-        "channelTab",
-        "meetingChatTab",
-        "meetingDetailsTab",
-        "meetingSidePanel",
-        "meetingStage"
-      ],
-      "name": "Stage View",
-      "contentUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/tab",
-      "websiteUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/tab",
-      "searchUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/tab"
-    },
-    {
       "entityId": "meetingStageTask",
       "scopes": ["personal", "team", "groupchat"],
       "context": [
@@ -52,14 +35,14 @@
         "meetingStage"
       ],
       "name": "Meeting Stage",
-      "contentUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/meetingStageTab",
-      "websiteUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/meetingStageTab",
-      "searchUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/meetingStageTab"
+      "contentUrl": "<BASE_URL>/meetingStageTab",
+      "websiteUrl": "<BASE_URL>/meetingStageTab",
+      "searchUrl": "<BASE_URL>/meetingStageTab"
     }
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/config",
+      "configurationUrl": "<BASE_URL>/config",
       "scopes": ["team", "groupchat"],
       "context": [
         "channelTab",
@@ -74,7 +57,6 @@
   "accentColor": "#60A18E",
   "permissions": ["identity", "messageTeamMembers"],
   "validDomains": [
-    "twelve-donkeys-end-75-84-197-183.loca.lt",
-    "token.botframework.com"
+    "<BASE_URL>"
   ]
 }
