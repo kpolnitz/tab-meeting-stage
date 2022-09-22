@@ -1,5 +1,5 @@
 ﻿{
-  "manifestVersion": "<MANIFEST_VERSION>",
+  "manifestVersion": "<MANIFEST-VERSION>",
   "version": "1.0.0",
   "id": "29707738-0e63-4e5e-b8db-beae7ce4de92",
   "packageName": "com.microsoft.teams.tabstageview",
@@ -35,14 +35,14 @@
         "meetingStage"
       ],
       "name": "Meeting Stage",
-      "contentUrl": "<BASE_URL>/meetingStageTab",
-      "websiteUrl": "<BASE_URL>/meetingStageTab",
-      "searchUrl": "<BASE_URL>/meetingStageTab"
+      "contentUrl": "<BASE-URL>/meetingStageTab",
+      "websiteUrl": "<BASE-URL>/meetingStageTab",
+      "searchUrl": "<BASE-URL>/meetingStageTab"
     }
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "<BASE_URL>/config",
+      "configurationUrl": "<BASE-URL>/config",
       "scopes": ["team", "groupchat"],
       "context": [
         "channelTab",
@@ -57,6 +57,6 @@
   "accentColor": "#60A18E",
   "permissions": ["identity", "messageTeamMembers"],
   "validDomains": [
-    "<BASE_URL>"
+    "<DOMAIN-NAME>"
   ]
 }
