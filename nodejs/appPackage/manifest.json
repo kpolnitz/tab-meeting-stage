@@ -1,6 +1,6 @@
 ﻿{
   "manifestVersion": "m365devpreview",
-    "version": "1.0.0",
+  "version": "1.0.0",
   "id": "29707738-0e63-4e5e-b8db-beae7ce4de92",
   "packageName": "com.microsoft.teams.tabstageview",
   "developer": {
@@ -24,11 +24,7 @@
   "staticTabs": [
     {
       "entityId": "stageViewTask",
-      "scopes": [
-        "personal",
-        "team",
-        "groupchat"
-      ],
+      "scopes": ["personal", "team", "groupchat"],
       "context": [
         "personalTab",
         "privateChatTab",
@@ -39,17 +35,13 @@
         "meetingStage"
       ],
       "name": "Stage View",
-      "contentUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/tab",
-      "websiteUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/tab",
-      "searchUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/tab"
+      "contentUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/tab",
+      "websiteUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/tab",
+      "searchUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/tab"
     },
     {
       "entityId": "meetingStageTask",
-      "scopes": [
-        "personal",
-        "team",
-        "groupchat"
-      ],
+      "scopes": ["personal", "team", "groupchat"],
       "context": [
         "personalTab",
         "privateChatTab",
@@ -60,18 +52,15 @@
         "meetingStage"
       ],
       "name": "Meeting Stage",
-      "contentUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/meetingStageTab",
-      "websiteUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/meetingStageTab",
-      "searchUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/meetingStageTab"
+      "contentUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/meetingStageTab",
+      "websiteUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/meetingStageTab",
+      "searchUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/meetingStageTab"
     }
   ],
   "configurableTabs": [
     {
-      "configurationUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/config",
-      "scopes": [
-        "team",
-        "groupchat"
-      ],
+      "configurationUrl": "https://twelve-donkeys-end-75-84-197-183.loca.lt/config",
+      "scopes": ["team", "groupchat"],
       "context": [
         "channelTab",
         "privateChatTab",
@@ -83,9 +72,9 @@
     }
   ],
   "accentColor": "#60A18E",
-  "permissions": [ "identity", "messageTeamMembers" ],
+  "permissions": ["identity", "messageTeamMembers"],
   "validDomains": [
-    "breezy-taxis-tease-75-84-197-183.loca.lt",
+    "twelve-donkeys-end-75-84-197-183.loca.lt",
     "token.botframework.com"
   ]
 }

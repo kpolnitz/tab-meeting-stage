@@ -12,6 +12,18 @@
     </script>
     <script>
         microsoftTeams.app.initialize();
+        function getShareToMeetingUrl() {   
+            let appContext = {     
+            appSharingUrl: "https://teams-test-tab.azurewebsites.net",     
+            appId: "2c19df50-1c3c-11ea-9327-cd28e4b6f7ba" 
+        };   
+            return "https://teams.microsoft.com/l/meeting-share?fqdn=&lm=deeplink&appContext=" + encodeURIComponent(JSON.stringify(appContext)); 
+        } 
+
+        function openUrl() {
+            var urlToOpen = getShareToMeetingUrl(); 
+            window.open(urlToOpen);
+        }
     </script>
 </head>
 
@@ -19,15 +31,8 @@
     <div class="surface">
         <div class="panel">
             <div>
-                <label for="tabChoice"></label>Click on the button to access share-to-meeting API from meeting stage:
-                <div
-                    class="teams-share-in-meeting-button"
-                    data-href="https://google.com"
-                    data-app-id="someappId"
-                    data-entity-name="tabmeetingstage"
-                    data-entity-description="somedescription"
-                    >
-                </div>
+                <h3>Click on the button to access share-to-meeting API from meeting stage:</h3>
+                <button onclick="openUrl()">Share to Meeting Stage</button>
             </div>
         </div>
     </div>
