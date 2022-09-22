@@ -4,7 +4,7 @@ This is a test app that opens Test Tab Ordering in meeting stage via the share-t
 
 - Tab with share-in-meeting to open stage view.
 
-![Tab View](Images/meetingstage.png)
+![Tab View](nodejs/Images/meetingstage.png)
 
 ## Prerequisites
 
