@@ -1,18 +1,3 @@
----
-page_type: sample
-description: Microsoft Teams tab sample app for demonstrating tab in stage view
-products:
-- office-teams
-- office
-- office-365
-languages:
-- nodejs
-extensions:
- contentType: samples
- createdDate: "06-10-2021 01:48:56"
-urlFragment: officedev-microsoft-teams-samples-tab-stage-view-nodejs
----
-
 # Share to Meeting Stage
 
 This is a test app that opens Test Tab Ordering in meeting stage via the share-to-meeting API.
