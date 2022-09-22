@@ -57,7 +57,7 @@ Make sure you've downloaded and installed Ngrok on your local machine. ngrok wil
 - __*This step is specific to Teams.*__
     **Edit** the `manifest.json` in the `appPackage` folder and replace the following details:
    - `<MANIFEST-VERSION>` with manifest version
-   - `<<BASE-URL>` with your application's base url, e.g. https://1234.ngrok.io
+   - `<BASE-URL>` with your application's base url, e.g. https://1234.ngrok.io
    - `<DOMAIN-NAME>` with the ngrok URL or app hosted base url.
     - **Zip** up the contents of the `appPackage` folder to create a `manifest.zip`
     - **Upload** the `manifest.zip` to Teams (in the Apps view click "Upload a custom app")
