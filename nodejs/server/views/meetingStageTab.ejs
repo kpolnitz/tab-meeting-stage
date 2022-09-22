@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/styles/msteams-16.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/custom.css"/>
+    <script async defer src="https://teams.microsoft.com/share/launcher.js"></script>
+    <script
+          src="https://res.cdn.office.net/teams-js/2.0.0/js/MicrosoftTeams.min.js"
+          integrity="sha384-QtTBFeFlfRDZBfwHJHYQp7MdLJ2C3sfAEB1Qpy+YblvjavBye+q87TELpTnvlXw4"
+          crossorigin="anonymous">
+    </script>
+    <script>
+        microsoftTeams.app.initialize();
+    </script>
+</head>
+
+<body class="theme-light">
+    <div class="surface">
+        <div class="panel">
+            <div>
+                <label for="tabChoice"></label>Click on the button to access share-to-meeting API from meeting stage:
+                <div
+                    class="teams-share-in-meeting-button"
+                    data-href="https://google.com"
+                    data-app-id="someappId"
+                    data-entity-name="tabmeetingstage"
+                    data-entity-description="somedescription"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

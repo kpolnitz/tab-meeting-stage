@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/styles/msteams-16.css"/>
+    <link rel="stylesheet" type="text/css" href="/styles/custom.css"/>
+    <script
+          src="https://res.cdn.office.net/teams-js/2.0.0/js/MicrosoftTeams.min.js"
+          integrity="sha384-QtTBFeFlfRDZBfwHJHYQp7MdLJ2C3sfAEB1Qpy+YblvjavBye+q87TELpTnvlXw4"
+          crossorigin="anonymous">
+    </script>
+    <script>
+        microsoftTeams.app.initialize();
+        function save() {
+            microsoftTeams.settings.setValidityState(true);
+            microsoftTeams.settings.setSettings({
+                    "suggestedDisplayName": "Test App",
+                    "entityId": "meetingStage",
+                    "contentUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/meetingStageTab",
+                    "websiteUrl": "https://breezy-taxis-tease-75-84-197-183.loca.lt/meetingStageTab"
+                });
+        };
+    </script>
+</head>
+
+<body class="theme-light">
+    <div class="surface">
+        <div class="panel">
+            <div>
+                <label for="tabChoice"></label>Click on the button to view share-to-meeting in meeting stage
+                <button onClick="save()">Configuration complete!</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
